@@ -1,4 +1,4 @@
-# otokocikinciel.com Web Scrap Uygulaması
+# otokocikinciel.com Web Scrap
 
 <img src="https://img.shields.io/badge/tested%20with-Playwright-blue" />
 
@@ -10,7 +10,7 @@
 - [Usage](#-Usage)
 - [Summary](#-Summary)
 
-Bu uygulama, Otokoc İkinci El Araba web sitesindeki araç verilerini toplayan ve bu verileri JSON ve XLSX formatlarında kaydeden bir otomasyon testidir. Uygulama, Playwright ve XLSX kütüphanelerini kullanarak oluşturulmuştur.
+Bu script, Otokoc İkinci El Araba web sitesindeki araç verilerini toplayan ve bu verileri JSON ve XLSX formatlarında kaydeden bir scripttir. Script, Playwright ve XLSX kütüphanelerini kullanarak oluşturulmuştur.
 
 ## Kurulum
 
@@ -23,9 +23,9 @@ Proje bağımlılıklarını kurmak için aşağıdaki adımları izleyin:
 
 Uygulamayı çalıştırmak için aşağıdaki adımları izleyin:
 
-1. `otokoc.spec.js` dosyasındaki testin çalışması için aşağıdaki komutu çalıştırın:
+1. `otokoc.spec.js` dosyasındaki testin çalışması için komutu çalıştırın: `cd tests` `npm run test --ui`
 Bu test, Otokoc web sitesindeki araç verilerini toplayacak ve `output.json` dosyasına kaydedecektir.
-2. `araclar.test.js` dosyasındaki testin çalışması için aşağıdaki komutu çalıştırın:
+2. `araclar.test.js` dosyasındaki testin çalışması için aşağıdaki komutu çalıştırın: `cd tests` `npm run test --ui`
 Bu test, `output.json` dosyasındaki araç URL'lerini ziyaret ederek araç detaylarını ve satıcı bilgilerini toplayacak. Ardından, `ikinci.json` ve `veri.xlsx` dosyalarını oluşturacaktır.
 3. İlgili dosyaların oluşturulduğunu ve verilerin kaydedildiğini görebileceksiniz.
 
@@ -40,7 +40,7 @@ Bu test, `output.json` dosyasındaki araç URL'lerini ziyaret ederek araç detay
 
 # Otokocikinciel.com Web Scraping Application
 
-This application is an automation test that collects vehicle data from the Otokoc Second Hand Car website and saves this data in JSON and XLSX formats. The application is built using Playwright and XLSX libraries.
+This is a script that collects vehicle data from the Otokoc Second Hand Car website and saves this data in JSON and XLSX formats. The script is built using Playwright and XLSX libraries.
 
 ## Installation
 
@@ -53,10 +53,10 @@ Follow the steps below to install project dependencies:
 
 Follow the steps below to run the application:
 
-1. Run the following command to execute the test in the `otokoc.spec.js` file:
+1. Run the following command to execute the test in the `otokoc.spec.js` file: `cd tests` `npm run test --ui`
    This test will collect vehicle data from the Otokoc website and save it to the `output.json` file.
 
-2. Run the following command to execute the test in the `araclar.test.js` file:
+2. Run the following command to execute the test in the `araclar.test.js` file: `cd tests` `npm run test --ui`
    This test will visit the vehicle URLs in the `output.json` file, collect vehicle details and seller information, and then generate the `ikinci.json` and `veri.xlsx` files.
 
 3. You can see that the relevant files are generated and the data is saved.
