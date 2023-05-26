@@ -3,12 +3,12 @@
 <img src="https://img.shields.io/badge/tested%20with-Playwright-blue" />
 
 ## 📚 İçerik
-- [Kurulum](#-Kurulum)
-- [Kullanım](#-Kullanım)
-- [Özet](#-Özet)
-- [Installation](#-Installation)
-- [Usage](#-Usage)
-- [Summary](#-Summary)
+- [Kurulum](#Kurulum)
+- [Kullanım](#Kullanım)
+- [Özet](#Özet)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Summary](#Summary)
 
 Bu script, Otokoc İkinci El Araba web sitesindeki araç verilerini toplayan ve bu verileri JSON ve XLSX formatlarında kaydeden bir scripttir. Script, Playwright ve XLSX kütüphanelerini kullanarak oluşturulmuştur.
 
