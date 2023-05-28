@@ -68,7 +68,8 @@ test('Her URLyi Yazdır', async () => {
          };
        }, {}),
        'Yetkili Kişinin Rolü': urlData.saticiBilgileri.yetkiliKisininRolu,
-       'Telefon Numarası': urlData.saticiBilgileri.telefonNumarasi
+       'İsim': urlData.saticiBilgileri.isim,
+       'Telefon Numarası': urlData.saticiBilgileri.telefonNumarasi,
      });
    }
  
