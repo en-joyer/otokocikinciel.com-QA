@@ -1,6 +1,7 @@
 # otokocikinciel.com Web Scrap
 
 <img src="https://img.shields.io/badge/tested%20with-Playwright-blue" />
+<img src="https://imgur.com/kEChm39.gif"/>
 
 ## 📚 İçerik
 - [Kurulum](#Kurulum)
