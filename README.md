@@ -1,9 +1,11 @@
 # otokocikinciel.com Web Scrap
 
 <div align="center">
+   
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Playwright](https://img.shields.io/badge/playwright-%23242526.svg?style=for-the-badge&logo=playwright&logoColor=%45ba4b)
 [![QA HUNT - Academy](https://img.shields.io/badge/QA_HUNT-Academy-blue?style=for-the-badge)](https://)
+   
 </div>
 <img src="https://imgur.com/kEChm39.gif"/>
 
